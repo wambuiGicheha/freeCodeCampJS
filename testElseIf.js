@@ -1,7 +1,7 @@
-/* const watchSites = ["Hulu", "Amazon", "Netflix"];
+ const watchSites = ["Hulu", "Amazon", "Netflix"];
 watchSites.push("Applewatch");
 
-console.log(watchSites); */
+
 
 function testElseIf(val) {
   if (val > 10) {
@@ -15,5 +15,5 @@ function testElseIf(val) {
 const anything = testElseIf(7);
 console.log(anything);
 
-
+console.log(watchSites); 
 
