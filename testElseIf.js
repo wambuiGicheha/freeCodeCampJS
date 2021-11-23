@@ -1,5 +1,11 @@
+ 
  const watchSites = ["Hulu", "Amazon", "Netflix"];
+
 watchSites.push("Applewatch");
+function getWatchSites(){
+  return watchSites; 
+}
+
 
 
 
@@ -15,5 +21,8 @@ function testElseIf(val) {
 const anything = testElseIf(7);
 console.log(anything);
 
-console.log(watchSites); 
+const sites = getWatchSites();
+console.log(sites);
+
+
 
