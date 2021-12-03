@@ -52,3 +52,41 @@ function checkObj(obj, checkProp) {
       return "Not Found";
     }
   }
+const studentRecords = [
+    {
+      "Name" : "Anne Hathaway",
+      "Age" : 15,
+      "Grade" : 12,
+      "subjects" : [
+        "Maths", 
+        "Physics",
+        "Biology"
+      ]
+      
+  }
+];
+
+
+const someplace = {
+  
+  "America" : {
+    "New York" : "New York"
+  }, 
+  "Africa" : {
+      "Kenya": {
+         "Nairobi" : "Nairobi_west",
+         "Nakuru" :"Nakuru_East"
+               },
+
+      "Nigeria" : "Abuja"
+             },
+   "Asia" : {
+   "Japan" : "Tokyo",
+    "China" : "Beijing"
+  }
+
+}
+ console.log(someplace.Africa.Kenya.Nakuru);
+
+
+
