@@ -88,5 +88,23 @@ const someplace = {
 }
  console.log(someplace.Africa.Kenya.Nakuru);
 
-
-
+ const myPlants = [
+  {
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];//second item[1] myPlants.trees[1]
+const secondTree = myPlants[1].list[1];
+console.log(secondTree);
