@@ -27,6 +27,12 @@ const array4 = [];
 for ( let b = 9; b >= 1; b -=2 ){
 array4.push(b);
 }
-console.log(array4);
+console.log('The odd numbers in descending order are ' + array4);
+
+const array5 = [];
+for (let c = 50; c <=100; c +=5){
+  array5.push(c);
+}
+console.log('The numbers divisible by 5 between 50 to 100 are ' + array5);
 
 

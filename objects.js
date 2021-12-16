@@ -36,11 +36,14 @@ function phoneticLookup(val) {
         "echo" :" Easy",
         "foxtrot" : "Frank"
      };
+     console.log(lookup.echo);
 
-           result = lookup[val];
+           result = lookup[val];//don't understand
             return result;
 }
+
 console.log(phoneticLookup("charlie"));
+console.log(phoneticLookup("bravo"));
 
 myCharacter.hasOwnProperty("father");
 
@@ -65,7 +68,7 @@ const studentRecords = [
       
   }
 ];
-
+console.log(studentRecords.hasOwnProperty("class"));
 
 const someplace = {
   
@@ -130,3 +133,28 @@ const recordCollection = {
   }
 };
 console.log(recordCollection[2468].albumTitle);
+
+
+
+
+
+
+function familyTree(names){
+  result = "";
+  const members = {
+    "father" : "Francis",
+    "mother" : "Martha",
+    "child1" : "Christine",
+    "child2" : "Charity",
+    "child3" : "David",
+    "nephew1" :" Tom",
+    "nephew2" :"Harrison",
+    "niece3" :"Lucy",
+    "nephew3" :"Hillary",
+  }
+  result = members[names];
+  return result;
+}
+console.log(familyTree("father"));
+console.log(familyTree("child3"));
+console.log(familyTree("nephew3"));
